@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-	<display-name>Archetype Created Web Application</display-name>
+	<display-name>Cadastro Clientes</display-name>
 	<servlet>
 		<servlet-name>
 			CRUD Cadastro de Clientes
@@ -23,15 +23,7 @@
 
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-<!-- <servlet> -->
-<!--     <servlet-name>CRUD Cadastro de Clientes</servlet-name> -->
-<!--     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>      -->
-<!--     <init-param> -->
-<!--         <param-name>jersey.config.server.provider.packages</param-name> -->
-<!--         <param-value>br.com.aplicacaoteste.service</param-value> -->
-<!--     </init-param> -->
-<!--     <load-on-startup>1</load-on-startup> -->
-<!--  </servlet> -->
+
 	<servlet-mapping>
 		<servlet-name>
 			CRUD Cadastro de Clientes
